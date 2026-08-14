@@ -272,24 +272,31 @@ Android devices form an ad-hoc <b>BLE mesh</b> and forward messages hop by hop, 
 
 <br />
 
-<div align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&height=30&duration=1&pause=999999&color=1F6FEB&center=true&vCenter=true&width=300&lines=~%2Factivity" alt="" /></div>
+<div align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&height=30&duration=1&pause=999999&color=1F6FEB&center=true&vCenter=true&width=300&lines=~%2Fpipeline" alt="" /></div>
 
-<br />
+```console
+aryan@aryansood18:~$ ./trace.sh --project sec_comment_letters
 
-<div align="center">
+   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+   │   PARQUET   │──▶│   PROJECT   │──▶│    FILTER   │──▶│   NORMALISE │
+   │  300 cols   │   │   7 cols    │   │  UPLOAD +   │   │  strip REIT │
+   │  raw WRDS   │   │  RAM-safe   │   │   10-K/Q    │   │ boilerplate │
+   └─────────────┘   └─────────────┘   └─────────────┘   └──────┬──────┘
+                                                                │
+        ┌───────────────────────────────────────────────────────┘
+        │
+        ▼
+   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+   │  TAG MACRO  │──▶│   TF-IDF    │──▶│  AGGREGATE  │──▶│   RENDER    │
+   │  8 classes  │   │  distinctive│   │  by year +  │   │  incidence  │
+   │  1 regex    │   │  vocabulary │   │  sic sector │   │  vs volume  │
+   └─────────────┘   └─────────────┘   └─────────────┘   └─────────────┘
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Aryansood18&show_icons=true&hide_border=true&bg_color=00000000&title_color=79C0FF&text_color=A5D6FF&icon_color=1F6FEB&include_all_commits=true&count_private=true&hide_title=true&rank_icon=github" alt="" />
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Aryansood18&hide_border=true&background=00000000&stroke=1F6FEB&ring=79C0FF&fire=79C0FF&currStreakLabel=A5D6FF&sideNums=E6F1FF&currStreakNum=E6F1FF&dates=58A6FF&sideLabels=A5D6FF" alt="" />
+   fx ░▒▓█  rates ░▒▓█  inflation ░▒▓█  output ░▒▓█  credit ░▒▓█
 
-<br /><br />
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryansood18&layout=compact&hide_border=true&bg_color=00000000&title_color=79C0FF&text_color=A5D6FF&langs_count=6" alt="" />
-
-<br /><br />
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Aryansood18&bg_color=00000000&color=E6F1FF&line=1F6FEB&point=79C0FF&area=true&area_color=0A2A4A&hide_border=true&custom_title=Contribution%20Activity" alt="" />
-
-</div>
+aryan@aryansood18:~$ echo $?
+0
+```
 
 <br />
 
